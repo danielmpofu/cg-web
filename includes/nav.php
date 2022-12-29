@@ -119,68 +119,11 @@
 
                         <div class="header-menu d-none d-xl-block">
                             <div class="main-menu">
-                                <ul>
-                                    <li>
-                                        <a href="index.php">Home</a>
-                                        <ul>
-                                            <li><a href="index.php">home 1</a></li>
-                                            <li><a href="index-2.html">home 2</a></li>
-                                            <li><a href="index-3.html">home 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="services.html">Our Services</a>
-
-                                        <ul>
-                                            <li><a href="services.html">Our Services 1</a></li>
-                                            <li><a href="services-2.html">Our Services 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a>Pages</a>
-
-                                        <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="table.html">Pricing Table</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
-                                            <li><a href="our-project-details.html">Our Project Details</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="our-project.html">Portfolio</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Blog</a>
-
-                                        <ul>
-                                            <li><a href="blog.html">Blog 1</a></li>
-                                            <li><a href="blog-standard.html">Blog 2</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                              <?php echo $siteMenu; ?>
                             </div>
                         </div>
 
                         <div class="header-right d-flex align-items-center">
-                            <div class="header-search">
-                                <a class="search-toggle" data-selector=".header-search">
-                                    <span class="fas fa-search"></span>
-                                </a>
-
-                                <form class="search-box" action="#" method="get">
-                                    <div class="form-group d-flex align-items-center">
-                                        <input type="search" name="s" value="" class="search-input" id="search"
-                                               placeholder="Search">
-                                        <button type="submit" class="search-submit"><i class="fas fa-search"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
 
                             <div class="horizontal-bar"></div>
 
