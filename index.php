@@ -76,7 +76,6 @@
         </div>
     </div>
 </section>
-<!-- banner slider end -->
 
 <?php include 'includes/section_company_values.php'; ?>
 
@@ -85,8 +84,6 @@ include 'includes/about_us_section.php';
 include 'includes/section_our_brands.php';
 ?>
 
-
-<!-- why-choose start -->
 <section class="why-choose pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
     <div class="container">
         <div class="row">

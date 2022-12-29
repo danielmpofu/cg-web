@@ -7,7 +7,7 @@ $activeCompanies = "6";
 $totalBranches = "11";
 $happyClients = "1200";
 $africanCountries = "4";
-
+$address = "24 Barnes, The Grange Hre, ZW";
 class BrandItem
 {
     public $logoUrl, $categoryName, $aboutLink, $description;

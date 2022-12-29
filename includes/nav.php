@@ -75,7 +75,7 @@
                             </div>
                             <div class="text">
                                 <span class="mb-5 d-block fw-normal color-white">Our Address</span>
-                                <h5 class="fw-600 color-white">Sun City, USA</h5>
+                                <h5 class="fw-600 color-white"><?php echo $address; ?></h5>
                             </div>
                         </a>
 
