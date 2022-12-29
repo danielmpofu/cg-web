@@ -44,4 +44,5 @@ $gc->logoUrl = "";
 $gc->aboutLink = "";
 $gc->description = "";
 
-$brands = array($gc,$sc,$mc);
+$brands = array($gc,$sc,$mc,$mg);
+echo json_encode($brands);
