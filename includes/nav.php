@@ -41,7 +41,7 @@
                     <div class="header-logo">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo/logo-2.png" alt="logo">
+                                <img src="assets/img/logo/logo.png" alt="logo">
                             </a>
                         </div>
                     </div>
