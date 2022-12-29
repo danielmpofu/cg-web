@@ -40,7 +40,7 @@
                 <div class="col-3">
                     <div class="header-logo">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/img/logo/logo-2.png" alt="logo">
                             </a>
                         </div>
@@ -101,7 +101,7 @@
                     <div class="d-flex align-items-center justify-content-between border-top">
                         <div class="header-logo d-block d-xl-none">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo/logo-2.png" alt="logo">
                                 </a>
                             </div>
@@ -120,9 +120,9 @@
                             <div class="main-menu">
                                 <ul>
                                     <li>
-                                        <a href="index.html">Home</a>
+                                        <a href="index.php">Home</a>
                                         <ul>
-                                            <li><a href="index.html">home 1</a></li>
+                                            <li><a href="index.php">home 1</a></li>
                                             <li><a href="index-2.html">home 2</a></li>
                                             <li><a href="index-3.html">home 3</a></li>
                                         </ul>
@@ -212,9 +212,9 @@
             <div class="consulter-mobile-nav">
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                         <ul>
-                            <li><a href="index.html">home 1</a></li>
+                            <li><a href="index.php">home 1</a></li>
                             <li><a href="index-2.html">home 2</a></li>
                             <li><a href="index-3.html">home 3</a></li>
                         </ul>
