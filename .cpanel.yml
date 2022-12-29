@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/greencal/public_html/cg-web-prod
+    - /bin/cp * $DEPLOYPATH
