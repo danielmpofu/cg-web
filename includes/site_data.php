@@ -8,6 +8,10 @@ $totalBranches = "11";
 $happyClients = "1200";
 $africanCountries = "4";
 $address = "24 Barnes, The Grange Hre, ZW";
+$phone = "+263(0)780 382302";
+$email = "info@chireregroup.com";
+
+
 class BrandItem
 {
     public $logoUrl, $categoryName, $aboutLink, $description;
@@ -45,4 +49,3 @@ $gc->aboutLink = "";
 $gc->description = "";
 
 $brands = array($gc,$sc,$mc,$mg);
-echo json_encode($brands);

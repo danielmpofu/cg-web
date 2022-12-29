@@ -1,5 +1,4 @@
-
-<?php include 'site_data.php'?>
+<?php include 'site_data.php' ?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -41,7 +40,7 @@
                     <div class="header-logo">
                         <div class="logo">
                             <a href="index.php">
-                                <img src="assets/img/logo/logo-2.png" alt="logo">
+                                <img src="assets/img/logo/logo.png" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -55,17 +54,18 @@
                             </div>
                             <div class="text">
                                 <span class="mb-5 d-block fw-normal color-white">Call Us Today</span>
-                                <h5 class="fw-600 color-white">(232) 456-7890</h5>
+                                <h5 class="fw-600 color-white"><?php echo $phone; ?></h5>
                             </div>
                         </a>
 
-                        <a href="mailto:consulter@gmail.com" class="header-contact d-none d-md-flex align-items-center">
+                        <a href="mailto:<?php echo $email; ?>"
+                           class="header-contact d-none d-md-flex align-items-center">
                             <div class="icon color-yellow">
                                 <i class="icon-email"></i>
                             </div>
                             <div class="text">
                                 <span class="mb-5 d-block fw-normal color-white">E-mail Us</span>
-                                <h5 class="fw-600 color-white">consulter@gmail.com</h5>
+                                <h5 class="fw-600 color-white"><?php echo $email; ?></h5>
                             </div>
                         </a>
 
@@ -75,7 +75,8 @@
                             </div>
                             <div class="text">
                                 <span class="mb-5 d-block fw-normal color-white">Our Address</span>
-                                <h5 class="fw-600 color-white"><?php echo $address; ?></h5>
+                                <h5 style="font-size: 10px!important;"
+                                    class="fw-600 color-white"><?php echo $address; ?></h5>
                             </div>
                         </a>
 
@@ -84,8 +85,8 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="text">
-                                <span class="mb-5 d-block fw-normal color-white">Open Every Day</span>
-                                <h5 class="fw-600 color-white">8am : 12pm</h5>
+                                <span class="mb-5 d-block fw-normal color-white">Open Every Week Day</span>
+                                <h5 class="fw-600 color-white">8AM : 4:30PM</h5>
                             </div>
                         </a>
                     </div>
@@ -102,7 +103,7 @@
                         <div class="header-logo d-block d-xl-none">
                             <div class="logo">
                                 <a href="index.php">
-                                    <img src="assets/img/logo/logo-2.png" alt="logo">
+                                    <img src="assets/img/logo/logo.png" alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -173,8 +174,10 @@
 
                                 <form class="search-box" action="#" method="get">
                                     <div class="form-group d-flex align-items-center">
-                                        <input type="search" name="s" value="" class="search-input" id="search" placeholder="Search">
-                                        <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+                                        <input type="search" name="s" value="" class="search-input" id="search"
+                                               placeholder="Search">
+                                        <button type="submit" class="search-submit"><i class="fas fa-search"></i>
+                                        </button>
                                     </div>
                                 </form>
                             </div>
@@ -262,7 +265,8 @@
 
                     <ul>
                         <li><a><i class="fal fa-clock"></i> Mon – Fri: 8.00 – 18.00</a></li>
-                        <li><a href="mailto:consulter@example.com"><i class="icon-email"></i>consulter@example.com</a></li>
+                        <li><a href="mailto:consulter@example.com"><i class="icon-email"></i>consulter@example.com</a>
+                        </li>
                         <li>
                             <a class="header-contact d-flex align-items-center">
                                 <div class="icon">
