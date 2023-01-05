@@ -20,7 +20,7 @@
                             <div class="theme-btn__wrapper d-flex justify-content-center">
                                 <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp"
                                    data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
-                                <a href="about.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
+                                <a href="about.php" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
                                    data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                             <div class="theme-btn__wrapper d-flex justify-content-center">
                                 <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp"
                                    data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
-                                <a href="about.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
+                                <a href="about.php" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
                                    data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                             <div class="theme-btn__wrapper d-flex justify-content-center">
                                 <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp"
                                    data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
-                                <a href="about.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
+                                <a href="about.php" class="theme-btn btn-sm btn-white" data-animation="fadeInUp"
                                    data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
@@ -77,9 +77,8 @@
     </div>
 </section>
 
-<?php include 'includes/section_company_values.php'; ?>
-
 <?php
+include 'includes/section_company_values.php';
 include 'includes/about_us_section.php';
 include 'includes/section_our_brands.php';
 ?>
@@ -1147,7 +1146,7 @@ include 'includes/section_our_brands.php';
                     <h4 class="wid-title mb-30 color-white">Quick Link</h4>
 
                     <ul>
-                        <li><a href="about.html">About Company</a></li>
+                        <li><a href="about.php">About Company</a></li>
                         <li><a href="services.html">Our Services</a></li>
                         <li><a href="services-2.html">Investor Presentation</a></li>
                         <li><a href="table.html">Investor Career</a></li>
