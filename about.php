@@ -1,6 +1,9 @@
-﻿<?php include "includes/nav.php"; ?>
+﻿<?php include "includes/nav.php";
 
-
+$pageTitle = "About Us";
+$pageDescription = "Get to know how we became this.";
+include "includes/breadcrumbs_barner.php";
+?>
 
 <section class="our-company  pt-xs-80 pb-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
     <div class="container">
@@ -15,6 +18,12 @@
                         </div>
 
                         <h5 class="title color-white">Brands Out There</h5>
+=======
+                            <span class="counter">23</span><sup>+</sup>
+                        </div>
+
+                        <h5 class="title color-white">Years Experience</h5>
+>>>>>>> 905e90bae0729b130deee6a60fb6dc4d7e302c3d
                     </div>
                 </div>
             </div>
@@ -1114,5 +1123,7 @@
 <script async="" defer=""
         src="../../../maps/api/js?key=AIzaSyDNzB36AcEMpFG1kWuNC5dfLvdX83OUr5M&callback=initMap"></script>
 </body>
+
+</html>
 
 </html>
