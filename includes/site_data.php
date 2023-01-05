@@ -16,11 +16,10 @@ $siteMenu = '  <ul>
 <li><a href="index.php">Home</a></li>
 <li> <a href="services.html">What We Do</a> </li>
 <li><a href="about.php">Who We Are</a></li>
-<li> <a><a href="about.php">Who We Are</a></a></li>
+<li><a href="about.php">Who We Are</a></li>
 <li><a href="our-project.html">Our Brands</a></li>
 <li> <a href="blog.html">Blog</a> </li>
 </ul>';
-
 
 class BrandItem
 {
