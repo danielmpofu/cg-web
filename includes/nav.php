@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="modinatheme">
     <!-- ======== Page title ============ -->
-    <title>CONSULTER - Business Consulting HTML Template</title>
+    <title>Chirere Group | Official Website Home Page</title>
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/logo/logo.png">
     <!-- ===========  All Stylesheet ================= -->
     <!--  Icon css plugins -->
     <link rel="stylesheet" href="assets/css/icons.css">
@@ -40,7 +40,9 @@
                     <div class="header-logo">
                         <div class="logo">
                             <a href="index.php">
-                                <img src="assets/img/logo/logo.png" alt="logo">
+                                <img src="assets/img/logo/logo.png"
+                                     style="max-height: 80px;padding:20px"
+                                     alt="logo">
                             </a>
                         </div>
                     </div>
@@ -75,8 +77,8 @@
                             </div>
                             <div class="text">
                                 <span class="mb-5 d-block fw-normal color-white">Our Address</span>
-                                <h5 style="font-size: 10px!important;"
-                                    class="fw-600 color-white"><?php echo $address; ?></h5>
+                                <h5 style="font-size: 14px!important;"
+                                    class=" color-white"><?php echo $addressShort; ?></h5>
                             </div>
                         </a>
 
@@ -103,7 +105,9 @@
                         <div class="header-logo d-block d-xl-none">
                             <div class="logo">
                                 <a href="index.php">
-                                    <img src="assets/img/logo/logo.png" alt="logo">
+                                    <img
+                                            style="max-height: 80px;padding: 20px;"
+                                            src="assets/img/logo/logo.png" alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -127,10 +131,6 @@
 
                             <div class="horizontal-bar"></div>
 
-                            <a class="shop-cart">
-                                <i class="fal fa-shopping-cart"></i>
-                                <span class="number">2</span>
-                            </a>
 
                             <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
                                 <div class="mobile-nav-wrap">
@@ -156,50 +156,7 @@
     <nav class="sidebar-nav">
         <div class="navigation">
             <div class="consulter-mobile-nav">
-                <ul>
-                    <li>
-                        <a href="index.php">Home</a>
-                        <ul>
-                            <li><a href="index.php">home 1</a></li>
-                            <li><a href="index-2.html">home 2</a></li>
-                            <li><a href="index-3.html">home 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="services.html">Our Services</a>
-
-                        <ul>
-                            <li><a href="services.html">Our Services 1</a></li>
-                            <li><a href="services-2.html">Our Services 2</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>Pages</a>
-
-                        <ul>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="table.html">Pricing Table</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="services-details.html">Services Details</a></li>
-                            <li><a href="our-project-details.html">Our Project Details</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                            <li><a href="404.html">404</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="our-project.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-
-                        <ul>
-                            <li><a href="blog.html">Blog 1</a></li>
-                            <li><a href="blog-standard.html">Blog 2</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <?php echo $siteMenu; ?>
             </div>
 
             <div class="sidebar-nav__bottom mt-20">
@@ -208,7 +165,7 @@
 
                     <ul>
                         <li><a><i class="fal fa-clock"></i> Mon – Fri: 8.00 – 18.00</a></li>
-                        <li><a href="mailto:consulter@example.com"><i class="icon-email"></i>consulter@example.com</a>
+                        <li><a href="mailto:consulter@example.com"><i class="icon-email"></i><?php echo $email;?></a>
                         </li>
                         <li>
                             <a class="header-contact d-flex align-items-center">
@@ -218,7 +175,7 @@
                                 </div>
                                 <div class="text">
                                     <span class="font-la mb-5 d-block fw-500">Contact For Support</span>
-                                    <h5 class="fw-500">+123 556 8824</h5>
+                                    <h5 class="fw-500"><?php echo $phone;?></h5>
                                 </div>
                             </a>
                         </li>

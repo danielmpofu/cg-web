@@ -7,14 +7,15 @@ $activeCompanies = "6";
 $totalBranches = "11";
 $happyClients = "1200";
 $africanCountries = "4";
-$address = "24 Barnes, The Grange Hre, ZW";
-$phone = "+263(0)780 382302";
+$address = "24 Barnes, The Grange Harare, ZW";
+$addressShort = "24 Barnes, The Grange, Harare";
+$phone = "+263780382302";
 $email = "info@chireregroup.com";
 
 $siteMenu = '  <ul>
 <li><a href="index.php">Home</a></li>
 <li> <a href="services.html">What We Do</a> </li>
-<li> <a><a href="about.html">Who We Are</a></a></li>
+<li><a href="about.php">Who We Are</a></li>
 <li><a href="our-project.html">Our Brands</a></li>
 <li> <a href="blog.html">Blog</a> </li>
 </ul>';
@@ -50,10 +51,10 @@ $mg->aboutLink = "http://martgreen.co.zw/about.php";
 $mg->description = "The leading customs clearance, freight forwarding & logistics partner, providing World Class Supply Chain Solutions to our clients, worldwide.";
 
 
-$gc = new BrandItem();
-$gc->categoryName = "";
-$gc->logoUrl = "";
-$gc->aboutLink = "";
-$gc->description = "";
+//$gc = new BrandItem();
+//$gc->categoryName = "";
+//$gc->logoUrl = "";
+//$gc->aboutLink = "";
+//$gc->description = "";
 
-$brands = array($gc,$sc,$mc,$mg);
+$brands = array($gc, $sc, $mc, $mg);
