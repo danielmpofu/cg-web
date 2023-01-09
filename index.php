@@ -80,98 +80,11 @@
 <?php
 include 'includes/section_company_values.php';
 include 'includes/about_us_section.php';
+$showAll = false;
 include 'includes/section_our_brands.php';
 ?>
 
-<section class="why-choose pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="why-choose__media-wrapper d-flex flex-column">
-                    <div class="gallery-bar bg-yellow"></div>
 
-                    <div class="why-choose__media">
-                        <img src="assets/img/services/why-choose-1.png" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="global-country text-center bg-yellow">
-                        <div class="number mb-5 color-white"><span class="counter">120</span>+</div>
-                        <h6 class="title color-white font-la">Global Country in <br>Our Company</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6">
-                <div class="why-choose__content mt-lg-60 mt-md-50 mt-sm-40 mt-xs-35">
-                    <div class="why-choose__text mb-40 mb-md-35 mb-sm-30 mb-xs-30">
-                        <span class="sub-title d-block fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-lg-20 mb-25"><img
-                                    src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Why choose us</span>
-                        <h2 class="title color-pd_black">Developing Solutions For The Future</h2>
-
-                        <div class="description font-la mt-20 mt-sm-15 mt-xs-10">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco.</p>
-                        </div>
-                    </div>
-
-                    <div class="why-choose__item-wrapper d-grid justify-content-between">
-                        <div class="why-choose__item">
-                            <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
-                                <i class="icon-consultation"></i>
-                            </div>
-
-                            <h5 class="title color-secondary fw-500 mb-10">Business Consulting</h5>
-
-                            <div class="description font-la">
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                            </div>
-                        </div>
-
-                        <div class="why-choose__item">
-                            <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
-                                <i class="icon-lawyer"></i>
-                            </div>
-
-                            <h5 class="title color-secondary fw-500 mb-10">Lawyer Consulting</h5>
-
-                            <div class="description font-la">
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                            </div>
-                        </div>
-
-                        <div class="why-choose__item">
-                            <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
-                                <i class="icon-financial"></i>
-                            </div>
-
-                            <h5 class="title color-secondary fw-500 mb-10">Financial Consulting</h5>
-
-                            <div class="description font-la">
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                            </div>
-                        </div>
-
-                        <div class="why-choose__item">
-                            <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
-                                <i class="icon-management"></i>
-                            </div>
-
-                            <h5 class="title color-d_black secondary-500 mb-10">IT Management</h5>
-
-                            <div class="description font-la">
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- why-choose end -->
-
-<!-- counter-area start -->
 <div class="counter-area pb-xs-80 pb-sm-100 pb-md-100 pb-120 overflow-hidden">
     <div class="container">
         <div class="row mb-minus-30">
@@ -229,9 +142,7 @@ include 'includes/section_our_brands.php';
         </div>
     </div>
 </div>
-<!-- counter-area end -->
 
-<!-- our-porfolio start -->
 <section
         class="our-team our-porfolio pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-135 pb-120 overflow-hidden">
     <div class="container">
