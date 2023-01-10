@@ -3,22 +3,31 @@
 $vision = "Our vision is to become an African Giant. By African Giant we are talk ing about becoming a company that will offer all the services you require for you and your business to get going.
 Our mission is to employ and empower our local people in our offices which are spread across";
 
+//all pages can sho that cta in the footer unless specified
+//showing a contact form will hide the cta in footer.
+//trigger true or false.
+$hasContactFunctionality = false;
+
 $activeCompanies = "6";
 $totalBranches = "11";
 $happyClients = "1200";
 $africanCountries = "4";
 $address = "24 Barnes, The Grange Harare, ZW";
+$address2 = "70 Glennara Ave, Harare, ZW";
 $addressShort = "24 Barnes, The Grange, Harare";
 $phone = "+263780382302";
 $email = "info@chireregroup.com";
-
+$emailSales = "hello@chireregroup.com";
+$contactUsMessage = "  We are always here to listen to what you have to say, we value all the communications. So
+                            feel free to send us a message right now.";
 $siteMenu = '  <ul>
 <li><a href="index.php">Home</a></li>
+<li><a href="about_us.php">Who We Are</a></li>
 <li> <a href="services.html">What We Do</a> </li>
-<li><a href="about.php">Who We Are</a></li>
-<li><a href="about.php">Who We Are</a></li>
 <li><a href="our-project.html">Our Brands</a></li>
-<li> <a href="blog.html">Blog</a> </li>
+<li> <a href="blog.html">Our Blog</a> </li>
+<li><a href="contact.php">Talk To Us</a></li>
+
 </ul>';
 
 class BrandItem

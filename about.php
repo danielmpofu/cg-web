@@ -931,7 +931,7 @@ include "includes/breadcrumbs_barner.php";
                             Services</h3>
                     </div>
                     <div class="cta-banner__content-btn">
-                        <a href="contact.html" class="theme-btn btn-white">Let’s Work Together <i
+                        <a href="contact.php" class="theme-btn btn-white">Let’s Work Together <i
                                     class="far fa-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -1041,7 +1041,7 @@ include "includes/breadcrumbs_barner.php";
                         <li><a href="services-2.html">Investor Presentation</a></li>
                         <li><a href="table.html">Investor Career</a></li>
                         <li><a href="team.html">Meet Our Team</a></li>
-                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="contact.php">Support</a></li>
                     </ul>
                 </div>
             </div> <!-- /.col-lg-2 - single-footer-wid -->

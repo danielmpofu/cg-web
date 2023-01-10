@@ -1,4 +1,4 @@
-<section class="our-company pb-xs-80 pb-100 overflow-hidden">
+<section style="margin-top: 10vh" class="our-company pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 overflow-hidden">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
@@ -9,7 +9,6 @@
                         <div class="number mb-5 color-white">
                             <span class="counter"><?php echo $happyClients; ?></span><sup>+</sup>
                         </div>
-
                         <h5 class="title color-white">Happy Clients</h5>
                     </div>
                 </div>

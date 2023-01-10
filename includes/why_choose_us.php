@@ -90,3 +90,4 @@
         </div>
     </div>
 </section>
+<?php include 'section_business_numbers.php';

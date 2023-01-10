@@ -7,7 +7,11 @@
                 <div class="employee-friendly__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
                     <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img
                                 src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt="">Our Brands</span>
-                    <h2 class="title color-d_black">Our Provide Specialized Brands & Services</h2>
+                    <h2 class="title color-d_black"><?php if ($showAll) {
+                            echo "Our Brands";
+                        } else {
+                            echo "Our New Brands";
+                        } ?></h2>
                 </div>
             </div>
         </div>
@@ -64,7 +68,7 @@
                     <div class="theme-btn-wrapper mt-50 mt-md-40 mt-sm-30 mt-xs-25 text-center">
                         <a href="our_brands.php" class="theme-btn btn-transparent fw-600"><i
                                     class="far fa-sync-alt"></i>
-                            More Services</a>
+                            Show More</a>
                     </div>
                 </div>
             <?php } ?>

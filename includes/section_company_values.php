@@ -1,6 +1,13 @@
 <!-- section company values start -->
-<section class="financial pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+<section class="financial pb-xs-80 pb-md-100 pt-120 pb-120 overflow-hidden">
     <div class="container">
+
+
+        <span class="sub-title fw-500 color-red text-uppercase mb-sm-10 mb-xs-5 mb-20 d-block"><img
+                    src="assets/img/home/line.svg" class="img-fluid mr-10"
+                    alt=""> Get to Know how we work</span>
+        <h2 class="title color-pd_black mb-20 mb-sm-15 mb-xs-10">What we stand for.</h2>
+
         <div class="row mb-minus-30">
             <div class="col-xl-4 col-md-6">
                 <div class="financial__item d-flex mb-30"
