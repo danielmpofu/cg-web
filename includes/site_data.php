@@ -3,6 +3,7 @@
 $vision = "Our vision is to become an African Giant. By African Giant we are talk ing about becoming a company that will offer all the services you require for you and your business to get going.
 Our mission is to employ and empower our local people in our offices which are spread across";
 
+$mission = "Our mission is to employ and empower our local people in our offices which are spread across";
 //all pages can sho that cta in the footer unless specified
 //showing a contact form will hide the cta in footer.
 //trigger true or false.

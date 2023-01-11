@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874c2c1b-1d30-48dd-a21e-1463b193f3a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/contact_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/contact_us_section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/section_business_numbers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/section_home_slider_hero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/section_company_history.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-standard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/about_us_section.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/about_us_section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/section_company_values.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/section_company_values.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/section_our_brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/section_our_brands.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/site_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/site_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/why_choose_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/why_choose_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-project-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-project-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/team-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672026513483</updated>
       <workItem from="1672026515765" duration="22273000" />
-      <workItem from="1673246690144" duration="5823000" />
+      <workItem from="1673246690144" duration="8262000" />
     </task>
     <servers />
   </component>
